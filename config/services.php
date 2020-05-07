@@ -31,9 +31,9 @@ return [
     ],
     
     'facebook'=> [
-        'client_id' => env('FACEBOOK_CLIENT_ID', '241992967115137'),
-        'client_secret' => env('FACEBOOK_CLIENT_SECRET', '60aeb56d970fa640101d58780f6211c2'),
-        'redirect' => env('FACEBOOK_REDIRECT','https://e0167495.ngrok.io/login/facebook/callback'),
+        'client_id' => env('FACEBOOK_CLIENT_ID', ),
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET',),
+        'redirect' => env('FACEBOOK_REDIRECT','https://....../login/facebook/callback'),
     ],
 
 ];
